@@ -1,4 +1,4 @@
-# MedCare Hospital Website
+# Şanmad Hospital Website
 
 A modern, responsive website for a fictional hospital built with Next.js and Tailwind CSS.
 
