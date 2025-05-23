@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Column 1: About */}
           <div>
-            <h3 className="text-white text-xl font-bold mb-6">MedCare<span className="text-blue-400">Hospital</span></h3>
+            <h3 className="text-white text-xl font-bold mb-6">Şanmad<span className="text-blue-400">Hospital</span></h3>
             <p className="mb-6">
               Providing compassionate healthcare services with cutting-edge
               technology and experienced professionals, dedicated to your wellbeing.
@@ -92,7 +92,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-blue-400 mr-3" />
-                <span>info@medcarehospital.com</span>
+                <span>info@şanmadhospital.com</span>
               </li>
               <li className="flex items-start">
                 <Clock className="h-5 w-5 text-blue-400 mr-3 mt-0.5" />
@@ -108,7 +108,7 @@ const Footer = () => {
         {/* Divider */}
         <div className="border-t border-blue-900 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p>&copy; {currentYear} MedCare Hospital. All rights reserved.</p>
+            <p>&copy; {currentYear} Şanmad Hospital. All rights reserved.</p>
             <div className="mt-4 md:mt-0">
               <ul className="flex space-x-6">
                 <li><Link href="/terms" className="hover:text-blue-400 transition-colors">Terms</Link></li>

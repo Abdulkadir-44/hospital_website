@@ -22,7 +22,7 @@ const HeroSection = () => {
               Exceptional Care for a <span className="text-blue-300">Healthier Life</span>
             </h1>
             <p className="text-lg md:text-xl text-blue-100 max-w-xl">
-              MedCare Hospital combines compassionate care with cutting-edge technology to provide the best healthcare services for you and your family.
+              Şanmad Hospital combines compassionate care with cutting-edge technology to provide the best healthcare services for you and your family.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
@@ -32,7 +32,7 @@ const HeroSection = () => {
                   Book Appointment
                 </Link>
               </Button>
-              <Button variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
+              <Button variant="outline" size="lg" className="bg-white text-blue-950 hover:bg-blue-100">
                 <Link href="/services" className="inline-flex items-center">
                   Learn More
                   <ChevronRight className="ml-2 h-5 w-5" />
@@ -54,12 +54,12 @@ const HeroSection = () => {
           <div className="relative">
             <div className="aspect-video rounded-xl overflow-hidden border-8 border-white/10 shadow-xl">
               <img
-                src="https://images.unsplash.com/photo-1666214280391-8b54a85232d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-                alt="Medical professionals at MedCare Hospital"
+                src="https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Medical professionals at Şanmad Hospital"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="absolute -bottom-6 -left-6 bg-blue-600 rounded-lg p-6 shadow-lg hidden md:block">
+            <div className="absolute -bottom-6 -left-6 bg-blue-500 rounded-lg p-6 shadow-lg hidden md:block">
               <div className="grid grid-cols-2 gap-4">
                 <div className="text-center">
                   <p className="font-bold text-3xl">50+</p>

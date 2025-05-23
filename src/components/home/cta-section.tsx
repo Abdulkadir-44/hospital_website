@@ -30,7 +30,7 @@ const CTASection = () => {
                   Book an Appointment
                 </Link>
               </Button>
-              <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
+              <Button asChild  size="lg" className="bg-white text-blue-950 hover:bg-blue-100">
                 <Link href="/contact" className="inline-flex items-center">
                   Contact Us <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>

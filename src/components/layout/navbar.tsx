@@ -73,7 +73,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between">
             <Link href="/" className="flex items-center gap-2">
               <span className="font-bold text-2xl text-primary">
-                MedCare<span className="text-blue-400">Hospital</span>
+                Şanmad<span className="text-blue-400">Hospital</span>
               </span>
             </Link>
 
@@ -108,7 +108,7 @@ const Navbar = () => {
                 <div className="flex flex-col h-full">
                   <div className="flex items-center justify-between mb-8 mt-4">
                     <span className="font-bold text-xl text-primary">
-                      MedCare<span className="text-blue-400">Hospital</span>
+                      Şanmad<span className="text-blue-400">Hospital</span>
                     </span>
                   </div>
                   <nav className="flex flex-col space-y-4">

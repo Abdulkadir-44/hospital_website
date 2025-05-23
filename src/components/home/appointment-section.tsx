@@ -121,9 +121,10 @@ const AppointmentSection = () => {
                     </label>
                     <select
                       id="department"
+                      defaultValue=""
                       className="w-full p-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
                     >
-                      <option value="" disabled selected>Select Department</option>
+                      <option value="" disabled>Select Department</option>
                       <option value="cardiology">Cardiology</option>
                       <option value="neurology">Neurology</option>
                       <option value="orthopedics">Orthopedics</option>
@@ -150,9 +151,10 @@ const AppointmentSection = () => {
                       </label>
                       <select
                         id="time"
+                        defaultValue=""
                         className="w-full p-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
                       >
-                        <option value="" disabled selected>Select Time</option>
+                        <option value="" disabled>Select Time</option>
                         <option value="morning">Morning (8am-12pm)</option>
                         <option value="afternoon">Afternoon (12pm-5pm)</option>
                         <option value="evening">Evening (5pm-8pm)</option>

@@ -39,19 +39,19 @@ const TestimonialCard = ({ quote, name, title, imageUrl, initials }: Testimonial
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      quote: "The care I received at MedCare Hospital was exceptional. The doctors took time to explain my condition and treatment options thoroughly. The staff was incredibly supportive throughout my recovery.",
+      quote: "The care I received at Şanmad Hospital was exceptional. The doctors took time to explain my condition and treatment options thoroughly. The staff was incredibly supportive throughout my recovery.",
       name: "Emma Thompson",
       title: "Cardiac Patient",
       initials: "ET"
     },
     {
-      quote: "I was nervous about my surgery, but the medical team at MedCare put me at ease. Their professionalism and compassion made a difficult time much easier. The follow-up care has been amazing.",
+      quote: "I was nervous about my surgery, but the medical team at Şanmad put me at ease. Their professionalism and compassion made a difficult time much easier. The follow-up care has been amazing.",
       name: "Robert Martinez",
       title: "Orthopedic Patient",
       initials: "RM"
     },
     {
-      quote: "As a parent, I was worried when my son needed emergency care. The pediatric team at MedCare Hospital was not only highly skilled but also incredibly kind. They made both of us feel comfortable and well-cared for.",
+      quote: "As a parent, I was worried when my son needed emergency care. The pediatric team at Şanmad Hospital was not only highly skilled but also incredibly kind. They made both of us feel comfortable and well-cared for.",
       name: "Sarah Johnson",
       title: "Parent of Pediatric Patient",
       initials: "SJ"
@@ -64,7 +64,7 @@ const TestimonialsSection = () => {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">What Our Patients Say</h2>
           <p className="text-gray-600 text-lg">
-            We take pride in providing exceptional care. Here's what our patients have to say about their experiences at MedCare Hospital.
+            We take pride in providing exceptional care. Here's what our patients have to say about their experiences at Şanmad Hospital.
           </p>
         </div>
 

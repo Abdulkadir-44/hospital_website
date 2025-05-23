@@ -53,23 +53,23 @@ const NewsCard = ({ title, excerpt, category, date, imageUrl, slug }: NewsCardPr
 const NewsSection = () => {
   const newsItems = [
     {
-      title: "MedCare Hospital Introduces Cutting-Edge Robotic Surgery Technology",
+      title: "Şanmad Hospital Introduces Cutting-Edge Robotic Surgery Technology",
       excerpt: "Our hospital has invested in state-of-the-art robotic surgery systems, enhancing precision and reducing recovery time for patients.",
       category: "Technology",
       date: "May 18, 2025",
       imageUrl: "https://images.unsplash.com/photo-1582719471384-894fbb16e074?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80",
-      slug: "medcare-hospital-introduces-robotic-surgery"
+      slug: "şanmad-hospital-introduces-robotic-surgery"
     },
     {
       title: "New Pediatric Wing Opens to Better Serve Young Patients",
-      excerpt: "MedCare Hospital has opened a specialized pediatric wing designed to create a comfortable and reassuring environment for children and their families.",
+      excerpt: "Şanmad Hospital has opened a specialized pediatric wing designed to create a comfortable and reassuring environment for children and their families.",
       category: "Facilities",
       date: "May 10, 2025",
       imageUrl: "https://images.unsplash.com/photo-1538108149393-fbbd81895907?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80",
       slug: "new-pediatric-wing-opens"
     },
     {
-      title: "MedCare Hospital Hosts Free Community Health Screening Event",
+      title: "Şanmad Hospital Hosts Free Community Health Screening Event",
       excerpt: "As part of our commitment to community health, we're hosting a free screening event offering blood pressure checks, diabetes screenings, and more.",
       category: "Community",
       date: "May 5, 2025",
@@ -105,14 +105,14 @@ const NewsSection = () => {
         <div className="mt-16 bg-blue-600 text-white rounded-xl p-8 lg:p-12">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
             <div className="lg:max-w-xl">
-              <h3 className="text-2xl md:text-3xl font-bold mb-4">Subscribe to Our Newsletter</h3>
+              <h3 className="text-2xl md:text-3xl font-bold text-blue-100 mb-4">Subscribe to Our Newsletter</h3>
               <p className="mb-0 text-blue-100">
                 Get the latest health tips, hospital news, and information about upcoming events
                 delivered directly to your inbox.
               </p>
             </div>
             <div className="w-full lg:w-auto">
-              <div className="flex flex-col sm:flex-row gap-3">
+              <div className="flex flex-col items-center sm:flex-row gap-3">
                 <input
                   type="email"
                   placeholder="Your email address"

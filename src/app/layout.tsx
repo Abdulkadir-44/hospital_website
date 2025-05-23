@@ -7,9 +7,9 @@ import Footer from "@/components/layout/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "MedCare Hospital - Your Health, Our Priority",
+  title: "Şanmad Hospital - Your Health, Our Priority",
   description:
-    "MedCare Hospital provides compassionate healthcare services with cutting-edge technology and experienced professionals, dedicated to your wellbeing.",
+    "Şanmad Hospital provides compassionate healthcare services with cutting-edge technology and experienced professionals, dedicated to your wellbeing.",
 };
 
 export default function RootLayout({
