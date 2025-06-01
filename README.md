@@ -1,101 +1,101 @@
-# Şanmad Hospital Website
+# Şanmad Hastanesi Web Sitesi
 
-A modern, responsive website for a fictional hospital built with Next.js and Tailwind CSS.
+Modern ve duyarlı (responsive) bir hastane web sitesi. Next.js ve Tailwind CSS ile geliştirilmiştir.
 
-## Features
+## Özellikler
 
-- **Modern UI Design**: Clean and professional interface designed specifically for healthcare services
-- **Fully Responsive**: Optimized for all device sizes from mobile to desktop
-- **Component-Based Architecture**: Built with reusable React components for maintainability
-- **Interactive Elements**: User-friendly forms, cards, and navigation
-- **Optimized Performance**: Fast loading and rendering with Next.js
+- **Modern Arayüz Tasarımı**: Sağlık hizmetleri için temiz ve profesyonel bir arayüz
+- **Tamamen Duyarlı**: Mobilden masaüstüne tüm cihazlarda optimize edilmiş görünüm
+- **Bileşen Tabanlı Mimari**: Bakımı kolay, tekrar kullanılabilir React bileşenleriyle inşa edildi
+- **Etkileşimli Öğeler**: Kullanıcı dostu formlar, kartlar ve gezinme menüleri
+- **Optimize Performans**: Next.js ile hızlı yükleme ve render
 
-## Pages and Sections
+## Sayfalar ve Bölümler
 
-- **Navigation**: Responsive navbar with mobile support
-- **Hero Section**: Engaging introduction with call-to-action buttons
-- **Services Showcase**: Highlights key medical specialties and services
-- **Doctors Profiles**: Featured medical professionals with information
-- **Patient Testimonials**: Trust-building reviews from patients
-- **Appointment Booking**: User-friendly appointment scheduling form
-- **News and Updates**: Latest hospital news and events
-- **Call-to-Action Areas**: Strategic sections to drive user engagement
-- **Footer**: Comprehensive hospital information and navigation
+- **Navigasyon**: Mobil uyumlu, duyarlı üst menü
+- **Hero Bölümü**: Etkileyici giriş ve harekete geçirici butonlar
+- **Hizmetler Tanıtımı**: Temel tıbbi branşlar ve hizmetler
+- **Doktor Profilleri**: Öne çıkan doktorlar ve bilgileri
+- **Hasta Yorumları**: Güven artırıcı hasta değerlendirmeleri
+- **Randevu Alma**: Kullanıcı dostu randevu formu
+- **Haberler ve Duyurular**: Hastaneye dair güncel haberler ve etkinlikler
+- **Harekete Geçirici Alanlar**: Kullanıcı etkileşimini artıran bölümler
+- **Alt Bilgi (Footer)**: Kapsamlı hastane bilgileri ve gezinme
 
-## Tech Stack
+## Teknoloji Yığını
 
-- **Next.js**: React framework for production
+- **Next.js**: Üretim için React framework’ü
 - **Tailwind CSS**: Utility-first CSS framework
-- **Shadcn UI**: Component library for consistent UI elements
-- **TypeScript**: For type safety and enhanced development experience
-- **Bun**: JavaScript runtime and package manager
+- **Shadcn UI**: Tutarlı arayüz bileşenleri için component kütüphanesi
+- **TypeScript**: Tip güvenliği ve gelişmiş geliştirme deneyimi
+- **Bun**: JavaScript çalışma zamanı ve paket yöneticisi
 
-## Getting Started
+## Başlarken
 
-### Prerequisites
+### Gereksinimler
 
-- Node.js 18+ or Bun installed on your system
+- Bilgisayarınızda Node.js 18+ veya Bun kurulu olmalı
 
-### Installation
+### Kurulum
 
-1. Clone the repository
+1. Depoyu klonlayın
    ```bash
    git clone https://github.com/your-username/hospital-website.git
    cd hospital-website
    ```
 
-2. Install dependencies
+2. Bağımlılıkları yükleyin
    ```bash
    bun install
-   # or npm install
+   # veya npm install
    ```
 
-3. Run the development server
+3. Geliştirme sunucusunu başlatın
    ```bash
    bun run dev
-   # or npm run dev
+   # veya npm run dev
    ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the website
+4. Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresini açarak siteyi görüntüleyin
 
-## Project Structure
+## Proje Yapısı
 
 ```
 hospital-website/
 ├── src/
-│   ├── app/           # Next.js pages and layouts
-│   ├── components/    # Reusable UI components
-│   │   ├── home/      # Homepage-specific components
-│   │   ├── layout/    # Layout components (navbar, footer, etc.)
-│   │   └── ui/        # Shadcn UI components
-│   └── lib/           # Utility functions and helpers
-├── public/            # Static assets
-└── ... configuration files
+│   ├── app/           # Next.js sayfaları ve layout’lar
+│   ├── components/    # Tekrar kullanılabilir arayüz bileşenleri
+│   │   ├── home/      # Ana sayfa bileşenleri
+│   │   ├── layout/    # Layout bileşenleri (navbar, footer, vb.)
+│   │   └── ui/        # Shadcn UI bileşenleri
+│   └── lib/           # Yardımcı fonksiyonlar ve yardımcılar
+├── public/            # Statik dosyalar
+└── ... yapılandırma dosyaları
 ```
 
-## Learn More
+## Daha Fazla Bilgi
 
-To learn more about Next.js, take a look at the following resources:
+Next.js hakkında daha fazla bilgi edinmek için:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Dokümantasyonu](https://nextjs.org/docs) – Next.js’in özellikleri ve API’leri
+- [Next.js Öğren](https://nextjs.org/learn) – Etkileşimli Next.js eğitimi
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Ayrıca [Next.js GitHub deposunu](https://github.com/vercel/next.js) inceleyebilir, geri bildirimde bulunabilir ve katkı sağlayabilirsiniz!
 
-## Deployment
+## Yayınlama (Deployment)
 
-This website can be easily deployed to Netlify, Vercel, or any other hosting platform that supports Next.js.
+Bu web sitesi, Next.js’i destekleyen Netlify, Vercel veya diğer platformlara kolayca deploy edilebilir.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+En kolay yol, Next.js’in geliştiricileri tarafından sunulan [Vercel Platformu](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) ile deploy etmektir.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Daha fazla bilgi için [Next.js deployment dokümantasyonuna](https://nextjs.org/docs/app/building-your-application/deploying) göz atabilirsiniz.
 
-## License
+## Lisans
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+Bu proje MIT Lisansı ile lisanslanmıştır – detaylar için LICENSE dosyasına bakınız.
 
-## Acknowledgments
+## Teşekkürler
 
-- Design inspired by modern healthcare websites
-- Images from Unsplash
-- Icons from Lucide React
+- Tasarım, modern sağlık web sitelerinden ilham alınmıştır
+- Görseller Unsplash’tan alınmıştır
+- İkonlar Lucide React’tan alınmıştır
